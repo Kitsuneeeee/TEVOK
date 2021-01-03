@@ -1,0 +1,18 @@
+state={
+	id=812
+	name="STATE_812"
+	manpower = 115300
+	
+	state_category = pastoral
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = POL
+	}
+
+	provinces={
+		388 11232
+	}
+}

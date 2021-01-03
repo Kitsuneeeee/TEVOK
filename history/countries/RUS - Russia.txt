@@ -1,0 +1,62 @@
+capital = 195
+
+oob = "RUS_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+	}
+}
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1934.11.4"
+	election_frequency = 48
+	elections_allowed = no # none after offset 1
+}
+set_popularities = {
+	conservatism = 32
+	liberalism = 28
+	social_democrat = 21
+	organic_democracy = 7
+	marxism = 8
+	national_syndicalism = 4
+}
+
+add_ideas = {
+RUS_incompetent_officers
+RUS_outdated_industry
+RUS_disconnected_nation
+RUS_1918_constitution
+}

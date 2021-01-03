@@ -1,0 +1,29 @@
+state={
+	id=823
+	name="STATE_823"
+	
+	resources={
+		steel= 2
+	}
+
+	history={
+		owner = RUS
+		victory_points = {
+			6997 3
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+		add_core_of = ARM
+
+	}
+
+	provinces={
+		4660 6642 6997
+	}
+	manpower=650760
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

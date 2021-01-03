@@ -1,0 +1,676 @@
+
+add_namespace = rcw
+
+country_event = {
+	id = rcw.1
+	title = rcw.1.t
+	desc = rcw.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RUS
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	immediate = {
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 195
+					state = 244
+					state = 208
+					state = 263
+					state = 246
+					state = 209
+					state = 210
+					state = 219
+					state = 264 
+					state = 247
+					state = 254
+					state = 253
+					state = 248
+					state = 351
+					state = 214
+					state = 216
+					state = 215
+					state = 213
+					state = 252
+				}
+			}
+			add_core_of = SOV
+			remove_core_of = RUS
+			add_claim_by = RUS
+			SOV = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 191
+					state = 13
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			EST = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 827
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			LAT = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 242
+					state = 246
+					state = 223
+					state = 222
+					state = 205
+					state = 243
+					state = 224
+					state = 241
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			add_core_of = SMO
+			SMO = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 207
+					state = 206
+					state = 96
+					state = 95
+					state = 204
+					state = 194
+					state = 94
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			BLR = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 784
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			LIT = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 91
+					state = 93
+					state = 201
+					state = 199
+					state = 198
+					state = 202
+					state = 192
+					state = 203
+					state = 197
+					state = 193
+					state = 196
+					state = 200
+					state = 226
+					state = 259
+					state = 225
+					state = 227
+					state = 228
+					state = 240
+					state = 220
+					state = 137
+					state = 221
+				}
+			}
+			add_core_of = UKR
+			remove_core_of = RUS
+			add_claim_by = RUS
+			UKR = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 652
+					state = 407
+					state = 406
+				}
+			}
+			add_core_of = ORB
+			remove_core_of = RUS
+			add_claim_by = RUS
+			ORB = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 408
+					state = 409
+					state = 560
+					state = 657
+					state = 561
+				}
+			}
+			add_core_of = TSA
+			remove_core_of = RUS
+			add_claim_by = RUS
+			TSA = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 329
+					state = 654
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			add_core_of = MON
+			MON = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 146
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			FIN = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 78
+					state = 766
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			MOL = {
+				transfer_state = PREV
+			}
+		}
+	}
+	
+	option = { # Support Tsar
+		name = rcw.a
+		hidden_effect = {
+			set_capital = 249
+			load_oob = "RUS_Civil_War"
+			set_equipment_fraction = 0.5
+			set_stability = 0.6
+			set_war_support = 0.8
+			news_event = { hours = 6 id = news_rcw.1 }
+			set_global_flag = rus_civil_war
+			
+			load_oob = "RUS_Civil_War"
+			set_equipment_fraction = 0.5
+			set_stability = 0.6
+			set_war_support = 0.8
+	
+     	RUS = {
+	    puppet = TSA
+	    puppet = ORB
+	    add_ideas = russian_civilwar
+	    create_faction = "White Army"
+	    }
+			
+		SMO = {
+			country_event = {
+				id = smo.1
+				days = 2
+			}
+		}
+		RUS = {
+			country_event = {
+				id = rcw.2
+				days = 20
+			}
+		}
+		SOV = {
+			country_event = {
+				id = sov.1
+				days = 2
+			}
+		}
+		TSA = {
+			country_event = {
+				id = tsa.1
+				days = 2
+			}
+		}
+		ORB = {
+			country_event = {
+				id = orb.1
+				days = 2
+			}
+		}
+		UKR = {
+			country_event = {
+				id = ukr.1
+				days = 2
+			}
+		}
+		BLR = {
+			country_event = {
+				id = blr.1
+				days = 2
+			}
+		}
+		EST = {
+			country_event = {
+				id = est.1
+				days = 2
+			}
+		}
+	}
+}
+	option = { # Support Communists
+		name = rcw.b
+	    trigger = { is_ai = no }
+		hidden_effect = {
+			set_capital = 249
+			load_oob = "RUS_Civil_War"
+			set_equipment_fraction = 0.5
+			set_stability = 0.6
+			set_war_support = 0.8
+			news_event = { hours = 6 id = news_rcw.1 }
+			set_global_flag = rus_civil_war
+			
+			load_oob = "RUS_Civil_War"
+			set_equipment_fraction = 0.5
+			set_stability = 0.6
+			set_war_support = 0.8
+			
+     	RUS = {
+	    puppet = TSA
+	    puppet = ORB
+	    add_ideas = russian_civilwar
+	    create_faction = "White Army"
+	    }
+			
+		SOV = {
+			change_tag_from = RUS
+		}
+			
+		SMO = {
+			country_event = {
+				id = smo.1
+				days = 2
+			}
+		}
+		RUS = {
+			country_event = {
+				id = rcw.2
+				days = 20
+			}
+		}
+		SOV = {
+			country_event = {
+				id = sov.1
+				days = 2
+			}
+		}
+		TSA = {
+			country_event = {
+				id = tsa.1
+				days = 2
+			}
+		}
+		ORB = {
+			country_event = {
+				id = orb.1
+				days = 2
+			}
+		}
+		UKR = {
+			country_event = {
+				id = ukr.1
+				days = 2
+			}
+		}
+		BLR = {
+			country_event = {
+				id = blr.1
+				days = 2
+			}
+		}
+		EST = {
+			country_event = {
+				id = est.1
+				days = 2
+			}
+		}
+	}
+}
+	option = { # Support Savinkov
+		name = rcw.c
+	    trigger = { is_ai = no }
+		hidden_effect = {
+			set_capital = 249
+			load_oob = "RUS_Civil_War"
+			set_equipment_fraction = 0.5
+			set_stability = 0.6
+			set_war_support = 0.8
+			news_event = { hours = 6 id = news_rcw.1 }
+			set_global_flag = rus_civil_war
+			
+			load_oob = "RUS_Civil_War"
+			set_equipment_fraction = 0.5
+			set_stability = 0.6
+			set_war_support = 0.8
+			
+     	RUS = {
+	    puppet = TSA
+	    puppet = ORB
+	    add_ideas = russian_civilwar
+	    create_faction = "White Army"
+	    }
+			
+		SMO = {
+			change_tag_from = RUS
+		}
+			
+		SMO = {
+			country_event = {
+				id = smo.1
+				days = 2
+			}
+		}
+		RUS = {
+			country_event = {
+				id = rcw.2
+				days = 20
+			}
+		}
+		TSA = {
+			country_event = {
+				id = tsa.1
+				days = 2
+			}
+		}
+		ORB = {
+			country_event = {
+				id = orb.1
+				days = 2
+			}
+		}
+		UKR = {
+			country_event = {
+				id = ukr.1
+				days = 2
+			}
+		}
+		BLR = {
+			country_event = {
+				id = blr.1
+				days = 2
+			}
+		}
+		EST = {
+			country_event = {
+				id = est.1
+				days = 2
+			}
+		}
+		    SOV = {
+			    country_event = {
+				id = sov.1
+				days = 2
+				}
+		    }
+		}
+	}
+}
+	
+country_event = {
+	id = rcw.2
+	title = rcw.2.t
+	desc = rcw.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RUS
+	}
+
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	immediate = {
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 218
+					state = 234
+					state = 238
+					state = 235
+					state = 233
+				}
+			}
+			add_core_of = KUB
+			remove_core_of = RUS
+			add_claim_by = RUS
+			KUB = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 229
+					state = 826
+					state = 825
+					state = 230
+					state = 823
+					state = 231
+                    state = 824
+				}
+			}
+			add_core_of = TRC
+			remove_core_of = RUS
+			add_claim_by = RUS
+			TRC = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 232
+					state = 830
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			add_core_of = MOU
+			MOU = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 402
+					state = 404
+					state = 833
+					state = 588
+					state = 838
+					state = 590
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			KAZ = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 586
+					state = 589
+					state = 732
+					state = 742
+					state = 405
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			add_core_of = TRK
+			TRK = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 585
+					state = 831
+					state = 832
+					state = 834
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			BUK = {
+				transfer_state = PREV
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = RUS
+				OR = {
+					state = 587
+					state = 584
+				}
+			}
+			remove_core_of = RUS
+			add_claim_by = RUS
+			TMS = {
+				transfer_state = PREV
+			}
+		}
+	}
+	
+	option = { 
+		name = rcw.2.a
+		hidden_effect = {
+		TRC = {
+			country_event = {
+				id = trc.1
+				days = 2
+			}
+		}
+		KUB = {
+			country_event = {
+				id = kub.1
+				days = 2
+			}
+		}
+		MOU = {
+			country_event = {
+				id = mou.1
+				days = 2
+			}
+		}
+		RUS = {
+			country_event = {
+				id = rcw.1
+				days = 2
+			}
+		}
+	}
+}
+	
+	option = { 
+		name = rcw.2.b
+		hidden_effect = {
+		TRC = {
+			change_tag_from = RUS
+		}
+		TRC = {
+			country_event = {
+				id = trc.1
+				days = 2
+			}
+		}
+		KUB = {
+			country_event = {
+				id = kub.1
+				days = 2
+			}
+		}
+		MOU = {
+			country_event = {
+				id = mou.1
+				days = 2
+				}
+		    }
+		RUS = {
+			country_event = {
+				id = rcw.1
+				days = 2
+			}
+		}
+		}
+	}
+}

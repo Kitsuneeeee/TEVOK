@@ -1,0 +1,22 @@
+
+state={
+	id=835
+	name="STATE_835" 
+	manpower = 458900
+	state_category = pastoral
+	resources={
+		steel=4
+	}
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		4675 10681 4832 10559 12556 10565 
+	}
+}

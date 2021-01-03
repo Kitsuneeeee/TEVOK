@@ -1,0 +1,28 @@
+
+state={
+	id=839
+	name="STATE_839"
+	manpower = 727650
+	
+	state_category = rural
+	resources={
+		oil=1
+	}
+
+	history={
+		owner = JBS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			2057 5
+		}
+		add_core_of = JBS
+	}
+
+	provinces={
+		8101 10815 4974 10901 12455 7970 2057 5058 5099 5027 4968
+	}
+}

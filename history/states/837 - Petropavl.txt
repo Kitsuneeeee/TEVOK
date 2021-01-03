@@ -1,0 +1,25 @@
+
+state={
+	id=837
+	name="STATE_837"
+	manpower = 578032
+	
+	state_category = pastoral
+
+	history={
+		owner = RUS
+		add_core_of = KAZ
+		victory_points = {
+			1694 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = RUS
+		add_core_of = KAZ
+	}
+
+	provinces={
+		4850 1694 7874 7741 1391 12619 1418 1309 1662 1680 7298 4238 4309 1229
+	}
+}

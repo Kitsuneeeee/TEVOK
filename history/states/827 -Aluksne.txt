@@ -1,0 +1,24 @@
+
+state={
+	id=827
+	name="STATE_827"
+	manpower = 7540
+	
+	state_category = city
+	
+	history={
+		owner = RUS
+		victory_points = {
+			3298 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LAT
+		add_core_of = RUS
+	}
+
+	provinces={
+		222 319 3298 
+	}
+}

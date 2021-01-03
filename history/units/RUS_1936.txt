@@ -1,0 +1,539 @@
+﻿### Russia OOB ###
+
+division_template = {
+	name = "Gvardeyskaya Pekhotnaya Diviziya"		
+	division_names_group = RUS_LGA_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+
+division_template = {
+	name = "Gvardeyskaya Kavaleriyskaya Diviziya"		
+	division_names_group = RUS_LGA_02
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 2 y = 3 }
+		
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 }  
+	}
+}
+
+division_template = {
+	name = "Armeyskiy Korpus"		
+	division_names_group = RUS_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 } 
+        artillery = { x = 0 y = 1 }		
+	}
+}
+
+units = {
+	division = {
+		name = "1-ya Gvardeyskaya Pekhotnaya Diviziya" 
+		location = 3151
+		division_template = "Gvardeyskaya Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		name = "2-ya Gvardeyskaya Pekhotnaya Diviziya" 
+		location = 3151
+		division_template = "Gvardeyskaya Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		name = "3-ya Gvardeyskaya Pekhotnaya Diviziya" 
+		location = 3151
+		division_template = "Gvardeyskaya Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		name = "4-ya Gvardeyskaya Pekhotnaya Diviziya" 
+		location = 525
+		division_template = "Gvardeyskaya Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		name = "1-ya Gvardeyskaya Kavaleriyskaya Diviziya"	 
+		location = 3151
+		division_template = "Gvardeyskaya Kavaleriyskaya Diviziya"	
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		name = "2-ya Gvardeyskaya Kavaleriyskaya Diviziya"	 
+		location = 3151
+		division_template = "Gvardeyskaya Kavaleriyskaya Diviziya"	
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		name = "1-ya Armeyskiy Korpus"	 
+		location = 3151
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "2-ya Armeyskiy Korpus"	 
+		location = 3151
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "3-ya Armeyskiy Korpus"	 
+		location = 202
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "4-ya Armeyskiy Korpus"	 
+		location = 202
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "5-ya Armeyskiy Korpus"	 
+		location = 219
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "6-ya Armeyskiy Korpus"	 
+		location = 3393
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "7-ya Armeyskiy Korpus"	 
+		location = 219
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "8-ya Armeyskiy Korpus"	 
+		location = 3152
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "9-ya Armeyskiy Korpus"	 
+		location = 11479
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "10-ya Armeyskiy Korpus"	 
+		location = 11670
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "11-ya Armeyskiy Korpus"	 
+		location = 9221
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "12-ya Armeyskiy Korpus"	 
+		location = 3152
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "13-ya Armeyskiy Korpus"	 
+		location = 1591
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "14-ya Armeyskiy Korpus"	 
+		location = 957
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "15-ya Armeyskiy Korpus"	 
+		location = 10559
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "16-ya Armeyskiy Korpus"	 
+		location = 957
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "17-ya Armeyskiy Korpus"	 
+		location = 7763
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "18-ya Armeyskiy Korpus"	 
+		location = 1755
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "19-ya Armeyskiy Korpus"	 
+		location = 11879
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "20-ya Armeyskiy Korpus"	 
+		location = 3787
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "21-ya Armeyskiy Korpus"	 
+		location = 6686
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "22-ya Armeyskiy Korpus"	 
+		location = 12189
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+
+	division = {
+		name = "23-ya Armeyskiy Korpus"	 
+		location = 7801
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "24-ya Armeyskiy Korpus"	 
+		location = 12189
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "25-ya Armeyskiy Korpus"	 
+		location = 4797
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "26-ya Armeyskiy Korpus"	 
+		location = 10627
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "27-ya Armeyskiy Korpus"	 
+		location = 7341
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "28-ya Armeyskiy Korpus"	 
+		location = 9753
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "29-ya Armeyskiy Korpus"	 
+		location = 11105
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "30-ya Armeyskiy Korpus"	 
+		location = 6380
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "31-ya Armeyskiy Korpus"	 
+		location = 11349
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "32-ya Armeyskiy Korpus"	 
+		location =3335
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "33-ya Armeyskiy Korpus"	 
+		location = 12320
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "34-ya Armeyskiy Korpus"	 
+		location = 3653
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "35-ya Armeyskiy Korpus"	 
+		location = 1599
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "36-ya Armeyskiy Korpus"	 
+		location = 7661
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "37-ya Armeyskiy Korpus"	 
+		location = 3686
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "38-ya Armeyskiy Korpus"	 
+		location = 3483
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "38-ya Armeyskiy Korpus"	 
+		location = 3392
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "39-ya Armeyskiy Korpus"	 
+		location = 418
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "40-ya Armeyskiy Korpus"	 
+		location = 3672
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "41-ya Armeyskiy Korpus"	 
+		location = 3320
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		name = "42-ya Armeyskiy Korpus"	 
+		location = 3392
+		division_template = "Armeyskiy Korpus"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+
+	}
+}
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "RUS"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+}
+
+#################################

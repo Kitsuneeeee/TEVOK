@@ -1,0 +1,35 @@
+
+state= {
+	id=821
+	name="STATE_821"
+	manpower = 1565000
+	resources={
+
+	}
+	
+	state_category = town
+
+	history= {
+		owner = TUR
+		victory_points = {
+			849 1
+		}
+		victory_points = {
+			6895 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			849 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+		}
+		add_core_of = TUR
+		add_claim_of = GRE
+		add_claim_of = BUL
+	}
+	provinces= {
+    849 3879 6895 3893
+    }
+}

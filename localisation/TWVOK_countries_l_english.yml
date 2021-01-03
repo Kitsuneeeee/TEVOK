@@ -1,0 +1,287 @@
+﻿l_english:
+ GER:0 "Germany"
+ GER_DEF:0 "Germany"
+ GER_ADJ:0 "German"
+ 
+ GER_national_syndicalism:0 "German People's Reich"
+ GER_national_syndicalism_DEF:0 "The German People's Reich"
+ 
+ GER_marxism:0 "People's Republic of Germany"
+ GER_marxism_DEF:0 "The People's Republic of Germany"
+ 
+ GER_utopian_socialism:0 "Free Syndicates of Germany"
+ GER_utopian_socialism_DEF:0 "The Free Syndicates of Germany"
+ 
+ GER_social_democrat:0 "German Empire"
+ GER_social_democrat_DEF:0 "The German Empire"
+ 
+ GER_liberal:0 "German Empire"
+ GER_liberal_DEF:0 "The German Empire"
+ 
+ GER_libertarianism:0 "German Empire"
+ GER_libertarianism_DEF:0 "The German Empire"
+ 
+ GER_conservatism:0 "German Empire"
+ GER_conservatism_DEF:0 "The German Empire"
+ 
+ GER_organic_democracy:0 "German Empire"
+ GER_organic_democracy_DEF:0 "The German Empire"
+ 
+ GER_authoritarian_traditionalism:0 "German Empire"
+ GER_authoritarian_traditionalism_DEF:0 "The German Empire"
+ 
+ RUS:0 "Russia"
+ RUS_DEF:0 "Russia"
+ RUS_ADJ:0 "Eussian"
+ 
+ RUS_national_syndicalism:0 "Russian National State"
+ RUS_national_syndicalism_DEF:0 "The Russian National State"
+ 
+ RUS_marxism:0 "Russian Socialist Republic"
+ RUS_marxism_ADJ:0 "The Russian Socialist Republic"
+ 
+ RUS_utopian_socialism:0 "Russian Federative Soviet Republic"
+ RUS_utopian_socialism_DEF:0 "The Russian Federative Soviet Republic"
+ 
+ RUS_liberal:0 "Russian Empire"
+ RUS_liberal_DEF:0 "The Russian Empire"
+ 
+ RUS_libertarianism:0 "Russian Empire"
+ RUS_libertarianism_DEF:0 "The Russian Empire"
+ 
+ RUS_conservatism:0 "Russian Empire"
+ RUS_conservatism_DEF:0 "The Russian Empire"
+ 
+ RUS_organic_democracy:0 "Russian Empire"
+ RUS_organic_democracy_DEF:0 "The Russian Empire"
+ 
+ RUS_authoritarian_traditionalism:0 "Holy Russian Empire"
+ RUS_authoritarian_traditionalism_DEF:0 "The Holy Russian Empire"
+ 
+ SOV:0 "Russia"
+ SOV_DEF:0 "Russia"
+ SOV_ADJ:0 "Russian"
+ 
+ SOV_marxism:0 "Russian SSFR"
+ SOV_marxism_DEF:0 "The Russian Soviet Socialist federal Republic"
+
+ SMO:0 "Smolensk"
+ SMO_DEF:0 "Smolensk"
+ SMO_ADJ:0 "Smolensk"
+ 
+ SMO_organic_democracy:0 "Smolensk Autonomous Region"
+ SMO_organic_democracy_DEF:0 "The Smolensk Autonomous Region"
+ 
+ SMO_national_syndicalism:0 "People's State of Smolensk"
+ SMO_national_syndicalism_DEF:0 "The People's State of Smolensk"
+ 
+ 
+ TRC:0 "Transcaucasia"
+ TRC_DEF:0 "Transcaucasia"
+ TRC_ADJ:0 "Transcaucasian"
+ 
+ TRC_organic_democracy:0 "Transcaucasian FR"
+ TRC_organic_democracy_DEF:0 "The Transcaucasian Federative Republic"
+ 
+ TRC_social_democrat:0 "Transcaucasian FR"
+ TRC_social_democrat_DEF:0 "The Transcaucasian Federative Republic"
+ 
+ TRC_liberalism:0 "Transcaucasian FR"
+ TRC_liberalism_DEF:0 "The Transcaucasian Federative Republic"
+ 
+ TRC_conservatism:0 "Transcaucasian FR"
+ TRC_conservatism_DEF:0 "The Transcaucasian Federative Republic"
+ 
+ 
+ ORB:0 "Orenburg"
+ ORB_DEF:0 "Orenburg"
+ ORB_ADJ:0 "Orenburg"
+ 
+ ORB_organic_democracy:0 "Orenburg Cossack Host"
+ ORB_DEF:0 "The Orenburg Cossack Host"
+ 
+ 
+ TSA:0 "Transamur"
+ TSA_DEF:0 "Transamur"
+ TSA_ADJ:0 "Transamurian"
+ 
+ TSA_organic_democracy:0 "Transamur Autonomous Region"
+ TSA_organic_democracy_DEF:0 "Transamur Autonomous Region"
+
+ 
+ KUB:0 "Kuban"
+ KUB_DEF:0 "Kuban"
+ KUB_ADJ:0 "Kuban"
+ 
+ KUB_organic_democracy:0 "Don-Kuban Cossack Host"
+ KUB_organic_democracy_DEF:0 "he Don-Kuban Cossack Host"
+ 
+ KUB_marxism:0 "Don-Kuban ASSR"
+ KUB_marxism_DEF:0 "The Don-Kuban Autonomous Soviet Socialist Republic"
+ 
+ 
+ MOU:0 "Mountain Republic"
+ MOU_DEF:0 "The Mountain Republic"
+ MOu_ADJ:0 "North Caucasian"
+ 
+ MOU_organic_democracy:0 "Mountain Republic"
+ MOU_organic_democracy_DEF:0 "The Mountainous Republic of the Northern Caucasus"
+ 
+ MOU_marxism:0 "Mountain ASSR"
+ MOU_marxism_DEF:0 "The Mountain ASSR"
+ 
+ 
+ KAZ:0 "Kazakhstan"
+ KAZ_DEF:0 "Kazakhstan"
+ KAZ_ADJ:0 "Kazakh"
+ 
+ KAZ_organic_democracy:0 "Alash Autonomy"
+ KAZ_organic_democracy_DEF:0 "The Alash Autonomy"
+ 
+ KAZ_liberalism:0 "Republic of Kazakhstan"
+ KAZ_liberalism_DEF:0 "The Republic of Kazakhstan"
+ 
+ KAZ_conservatism:0 "Republic of Kazakhstan"
+ KAZ_conservatism_DEF:0 "The Republic of Kazakhstan"
+ 
+ KAZ_social_democrat:0 "Republic of Kazakhstan"
+ KAZ_social_democrat_DEF:0 "The Republic of Kazakhstan"
+ 
+ KAZ_marxism:0 "Kazakh SSR"
+ KAZ_marxism_DEF:0 "The Kazakh Soviet Socialist Republic"
+ 
+ 
+ TRK:0 "Turkestan"
+ TRK_DEF:0 "Turkestan"
+ TRK_ADJ:0 "Turkestani"
+ 
+ TRK_organic_democracy:0 "Turkestan Autonomy"
+ TRK_organic_democracy_DEF:0 "The Turkestan Autonomy"
+ 
+ TRK_liberalism:0 "Republic of Turkestan"
+ TRK_liberalism_DEF:0 "The Republic of Turkestan"
+ 
+ TRK_conservatism:0 "Republic of Turkestan"
+ TRK_conservatism_DEF:0 "The Republic of Turkestan"
+ 
+ TRK_social_democrat:0 "Republic of Turkestan"
+ TRK_social_democrat_DEF:0 "The Republic of Turkestan"
+ 
+ TRK_marxism:0 "Trukestan ASSR"
+ TRK_marxism_DEF:0 "The Turkestan ASSR"
+ 
+ BUK:0 "Bukhara"
+ BUK_DEF:0 "Bukhara"
+ BUK_ADJ:0 "Bukharan"
+ 
+ BUK_organic_democracy:0 "Bukhara Autonomy"
+ BUK_organic_democracy_DEF:0 "The Bukhara Autonomy"
+ 
+ BUK_marxism:0 "Bukharan People's Soviet Republic"
+ BUK_marxism_DEF:0 "The Bukharan People's Soviet Republic"
+ 
+ BUK_authoritarian_traditionalism:0 "Bukharan Emirate"
+ BUK_authoritarian_traditionalism:0 "The Bukharan Emirate"
+ 
+ 
+ BLR:0 "White Russia"
+ BLR_DEF:0 "White Russia"
+ BLR_ADJ:0 "White Russian"
+ 
+ BLR_organic_democracy:0 "White Russian Republic"
+ BLR_DEF_organic_democracy:0 "The White Russian Republic"
+ 
+ BLR_social_democrat:0 "White Russian Republic"
+ BLR_social_democrat_DEF:0 "The White Russian Republic"
+ 
+ BLR_conservatism:0 "White Russian Republic"
+ BLR_conservatism_DEF:0 "The White Russian Republic"
+ 
+ TUR:0 "Turkey"
+ TUR_DEF:0 "Turkey"
+ TUR_ADJ:0 "Turkish"
+ 
+ TUR_organic_democracy:0 "Republic of Turkey"
+ TUR_organic_democracy_DEF:0 "The Republic of Turkey"
+ 
+ TUR_liberalism:0 "Republic of Turkey"
+ TUR_liberalism_DEF:0 "The Republic of Turkey"
+ 
+ TUR_social_democrat:0 "Republic of Turkey"
+ TUR_social_democrat_DEF:0 "The Republic of Turkey"
+ 
+ TUR_conservatism:0 "Republic of Turkey"
+ TUR_conservatism_DEF:0 "The Republic of Turkey"
+ 
+ TUR_national_syndicalism:0 "Turkish Union"
+ TUR_national_syndicalism:0 "The Turkish Union"
+ 
+ TUR_utopian_socialism:0 "UISR"
+ TUR_utopian_socialism:0 "The United Islamic Socialist Republics"
+ 
+ TUR_marxism:0 "Turkish Soviet Republic"
+ TUR_marxism:0 "The Turkish Soviet Republic"
+ 
+ JBS:0 "Jabal Shammar"
+ JBS_DEF:0 "Jabal Shammar"
+ JBS_ADJ:0 "Shammari"
+ 
+ JBS_organic_democracy:0 "Emirate of Jabal Shamamr"
+ JBS_organic_democracy_DEF:0 "The Emirate of Jabal Shammar"
+ 
+ JBS_liberalism:0 "Kingdom of Jabal Shamamr"
+ JBS_liberalism_DEF:0 "The Kingdom of Jabal Shammar"
+ 
+ JBS_social_democrat:0 "Kingdom of Jabal Shamamr"
+ JBS_social_democrat_DEF:0 "The Kingdom of Jabal Shamamr"
+ 
+ JBS_conservatism:0 "Kingdom of Jabal Shamamr"
+ JBS_conservatism_DEF:0 "The Kingdom of Jabal Shamamr"
+ 
+ JBS_utopian_socialism:0 "Islamic Arab Union"
+ JBS_utopian_socialism:0 "The Islamic Arab Union"
+ 
+ JBS_marxism:0 "Arabian People's Republic"
+ JBS_marxism_DEF:0 "The Arabian People's Republic"
+ 
+ JBS_authoritarian_traditionalism:0 "Rashidi Caliphate"
+ JBS_authoritarian_traditionalism_DEF:0 "Rashidi Caliphate"
+ 
+ JBS_national_syndicalism:0 "Ba'athist State of Arabia"
+ JBS_national_syndicalism_DEF:0 "The Ba'athist State of Arabia"
+ 
+ SAU:0 "Nejd"
+ SAU_DEF:0 "Nejd"
+ SAU_ADJ:0 "Nejdi"
+ 
+ SAU_organic_demcoracy:0 "Emirate of Nejd"
+ SAU_organic_democracy_DEF:0 "The Emirate of Nejd"
+ 
+ SAU_liberalism:0 "Kingdom of Nejd"
+ SAU_liberalism_DEF:0 "The Kingdom of Nejd"
+ 
+ SAU_social_democrat:0 "Kingdom of Nejd"
+ SAU_social_democrat_DEF:0 "The Kingdom of Nejd"
+ 
+ SAU_conservatism:0 "Kingdom of Nejd"
+ SAU_conservatism_DEF:0 "The Kingdom of Nejd"
+ 
+ SAU_utopian_socialism:0 "Islamic Arab Union"
+ SAU_utopian_socialism_DEF:0 "The Islamic Arab Union"
+ 
+ SAU_authoritarian_traditionalism:0 "Wahhabi Caliphate"
+ SAU_authoritarian_traditionalism_DEF:0 "The Wahhabi Caliphate"
+ 
+ SAU_marxism:0 "Arabian People's Republic"
+ SAU_marxism_DEF:0 "The Arabian People's Republic"
+ 
+ SAU_national_syndicalism:0 "Ba'athist State of Arabia"
+ SAU_national_syndicalism_DEF:0 "The Ba'athist State of Arabia"
+ 
+ TSI:0 "Two Sicilies"
+ TSI_DEF:0 "Two Sicilies"
+ TSI_ADJ:0 "Sicilian"
+ 
+ PAP:0 "The Papal States"
+ PAP_DEF:0 "The Papal States"
+ PAP_ADJ:0 "Papal"

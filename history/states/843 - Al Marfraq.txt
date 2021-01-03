@@ -1,0 +1,23 @@
+
+state={
+	id=843
+	name="STATE_843"
+	manpower = 242344
+	
+	state_category = rural
+
+	history={
+		owner = JBS
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			7001 3 
+		}
+		add_core_of = JBS
+	}
+
+	provinces={
+		7001 4574 1544 4440
+	}
+}

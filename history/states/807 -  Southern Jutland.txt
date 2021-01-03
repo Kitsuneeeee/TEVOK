@@ -1,0 +1,25 @@
+state= {
+	id=807
+	name="STATE_807"
+	manpower = 23176
+	resources={
+		aluminium = 2
+	}
+	
+	state_category = rural
+
+	history = {
+		owner = GER
+		victory_points = {
+			11251 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = DEN
+		add_core_of = GER
+	}
+	provinces = {
+    332 11251 	
+}
+}

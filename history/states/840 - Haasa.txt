@@ -1,0 +1,30 @@
+
+state={
+	id=840
+	name="STATE_840"
+	manpower = 857650
+	
+	state_category = town
+	resources={
+		oil=6
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			12702 = {
+				naval_base = 2
+			}
+			add_core_of = TUR
+		}
+		victory_points = {
+			12702 3
+		}
+	}
+
+	provinces={
+		1955 12702 10791 4932
+	}
+}

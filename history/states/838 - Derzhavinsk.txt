@@ -1,0 +1,24 @@
+state={
+	id=838
+	name="STATE_838"
+
+	history={
+		owner = RUS
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = RUS
+		victory_points = {
+			12170 1
+		}
+	}
+
+	provinces={
+		12266 1276 12139 10295 1331 4337 1303 12170 1360 12198 12143 10140 1272
+	}
+	manpower=115450
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

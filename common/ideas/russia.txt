@@ -1,0 +1,101 @@
+ideas = {
+
+    country = {
+		RUS_outdated_industry = {
+
+			allowed = {
+				original_tag = RUS
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+			removal_cost = -1
+			
+			modifier = [
+			consumer_goods_factor = 0.10
+			industrial_capacity_factory = -0.2
+			industrial_capacity_dockyard = -0.2
+			production_factory_efficiency_gain_factor = -0.15 
+			production_factory_max_efficiency_factor = -0.20
+            production_speed_buildings_factor = -0.25	
+            }
+        }			
+
+		RUS_incompetent_officers = {
+
+			allowed = {
+				original_tag = RUS
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+			removal_cost = -1
+			
+			modifier = [
+			land_reinforce_rate = -0.05
+			army_org_factor = -0.10
+			military_leader_cost_factor = -0.25
+			political_power_factor = 0.10
+		    }
+        }
+	
+		RUS_unconnected_nation = {
+
+			allowed = {
+				original_tag = RUS
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+			removal_cost = -1
+			
+			modifier = [
+			conscription = -0.25
+		    }
+        }
+	
+		RUS_1918_constitution = { 
+
+			allowed = {
+				original_tag = RUS
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+			removal_cost = -1
+			
+			modifier = [
+			disabled_ideas = 1
+			political_power_gain = -0.15
+			stability_factor = 0.20
+			guarantee_tension = 0.40
+			generate_wargoal_tension = 0.60
+		    }
+		}
+		russian_civilwar = { 
+
+			allowed = {
+				original_tag = RUS
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+			removal_cost = -1
+			
+			modifier = [
+			ai_focus_aggressive_factor = 0.5
+			ai_focus_military_advancements_factor = 0.5
+			ai_focus_war_production_factor = 0.5
+			army_core_attack_factor = 0.15
+			army_core_defence_factor = 0.15
+			recruitable_population_factor = 0.30
+			max_surrender_limit_offset = 0.30
+		    }
+		}
+	}
+}

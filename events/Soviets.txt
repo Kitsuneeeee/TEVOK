@@ -1,0 +1,23 @@
+
+ add_namespace = sov
+ 
+country_event = {
+	id = sov.1
+	title = sov.1.t
+	desc = sov.1.d
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+	hidden_effect = {
+	load_oob = "SOV_Civil_War"
+	}
+}

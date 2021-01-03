@@ -1,0 +1,36 @@
+
+state={
+	id=152
+	name="STATE_152"
+	manpower = 2275377
+	
+	state_category = city
+	
+	resources={
+		steel=8
+		tungsten = 6
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+		victory_points = {
+			688 10 
+		}
+		victory_points = {
+			9665 3
+		}
+		victory_points = {
+			732 10
+		}
+		add_core_of = AUS
+		add_core_of = GER
+	}
+
+	provinces={
+		688 732 3684 3703 6691 6708 9665 3675 
+	}
+}

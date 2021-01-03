@@ -1,0 +1,28 @@
+
+state={
+	id=819
+	name="STATE_819"
+	manpower = 1814936
+	
+	state_category = rural
+
+	resources={
+		chromium = 2
+	}
+
+	history={
+		owner = TUR
+		victory_points = { #Haskovo
+			9862 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		878 893 9862 
+	}
+}

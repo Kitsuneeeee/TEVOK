@@ -1,0 +1,23 @@
+state={
+	id=833
+	name="STATE_833"
+
+	history={
+		add_core_of = KAZ
+		add_core_of = UZB
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+
+	}
+
+	provinces={
+		1532 1554 7501 7507 10420 
+	}
+	manpower=670600
+	buildings_max_level_factor=1.000
+	state_category=^pastoral
+}

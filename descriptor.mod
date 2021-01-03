@@ -1,0 +1,15 @@
+version="0.1"
+tags={
+	"Alternative History"
+	"Map"
+	"National Focuses"
+	"Ideologies"
+}
+name="Two eagles Victory of Königgrätz"
+supported_version="1.10.3"
+replace_path="common/ideologies"
+replace_path="localisation/parties_l_english"
+replace_path="common/idea_tags/00_idea.txt"
+replace_path="localisation/countries_l_english"
+replace_path="common/ideas"
+replace_path = "events"

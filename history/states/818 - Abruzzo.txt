@@ -1,0 +1,27 @@
+
+state={
+	id=818
+	name="STATE_818"
+	manpower = 979335
+	
+	state_category = town
+
+	history={
+		owner = TSI
+		victory_points = {
+			6831 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			6831 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TSI
+	}
+
+	provinces={
+		963 3923 3966 6831
+	}
+}

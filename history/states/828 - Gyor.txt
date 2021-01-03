@@ -1,0 +1,26 @@
+
+state={
+	id=828
+	name="STATE_828"
+	manpower = 560782
+	
+	state_category = city
+	resources={
+		oil = 1
+	}
+	history={
+		owner = GER
+		victory_points = {
+			6720 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		686 701 3683 6720 9676 11627  
+	}
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=816
+	name="STATE_816" 
+	manpower = 498600
+
+	state_category = town
+
+
+	history={
+		owner = GER
+		victory_points = {
+			11564 1 
+		}
+		buildings = {
+			infrastructure = 6
+			dockyard = 3
+			industrial_complex = 1
+			11564 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+	}
+
+	provinces={
+		11564
+	}
+}

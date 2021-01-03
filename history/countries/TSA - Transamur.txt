@@ -1,0 +1,57 @@
+capital = 408
+
+oob = "TSA_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1= 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+	}
+}
+
+set_politics = {
+	ruling_party = organic_democracy
+	last_election = "1934.11.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	conservatism = 26
+	organic_democracy = 63
+	marxism = 11
+}
+
+add_ideas = {
+russian_civilwar
+}

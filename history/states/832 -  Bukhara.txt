@@ -1,0 +1,26 @@
+state={
+	id=832
+	name="STATE_832"
+
+	history={
+		add_core_of = BUK
+		add_core_of = UZB
+		victory_points = {
+			10470 3
+		}
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+
+	}
+
+	provinces={
+		1623 1649 4499 7924 9605 10470 12161 
+	}
+	manpower=398766
+	buildings_max_level_factor=1.000
+	state_category=town
+}

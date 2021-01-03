@@ -1,0 +1,26 @@
+state={
+	id=834
+	name="STATE_834"
+
+	history={
+		add_core_of = TMS
+		add_core_of = BUK
+		owner = RUS
+		victory_points = {
+			4482 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = RUS
+
+	}
+
+	provinces={
+		4958 5003 4549 10742 4482 7560 7491 10357 10414
+	}
+	manpower=523488
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
