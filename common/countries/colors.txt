@@ -1,8 +1,8 @@
 #reload countrycolors
 
 GER = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 110 110 110 }
 }
 ENG = {
 	color = rgb { 201 56 93 }
@@ -761,4 +761,9 @@ TSI = {
 PAP = {
 	color = rgb { 235 235 170 }
 	color_ui = rgb { 235 235 170 }
+}
+
+TEU = {
+	color = rgb { 75 75 75 }
+	color_ui = rgb { 75 75 75 }
 }

@@ -1,0 +1,26 @@
+state={
+	id=845
+	name="STATE_845"
+
+	state_category = rural
+	history={
+		owner = ITA
+		add_core_of = OCC
+		add_core_of = ITA
+		victory_points = {
+			778 1 
+		}
+		buildings = {
+			infrastructure = 4
+			9909 = {
+				naval_base = 2
+			}		
+		}
+	}
+
+	provinces={
+		9745 778 6609 9603 11573 
+	}
+	manpower=163500
+	buildings_max_level_factor=1.000
+}

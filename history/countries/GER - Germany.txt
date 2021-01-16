@@ -17,7 +17,6 @@ set_technology = {
 	interwar_antiair = 1
 	gwtank = 1
 	basic_light_tank = 1
-	improved_light_tank = 1
 	basic_heavy_tank = 1
 	early_fighter = 1
 	fighter1 = 1
@@ -27,12 +26,8 @@ set_technology = {
 	CAS1 = 1
 	naval_bomber1 = 1
 	
-	mobile_warfare = 1
-	trade_interdiction = 1
-	formation_flying = 1
 	synth_oil_experiments = 1
 	fuel_silos = 1
-	fuel_refining = 1
 }
 
 if = {
@@ -290,64 +285,73 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = conservatism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	conservatism = 42
+	liberalism = 24
+	social_democrat = 20
+	marxism = 4
+	utopian_socialism = 2
+	authoritarian_traditionalism = 2
+	national_syndicalism = 2
+	organic_democracy = 4
 }
-
-create_faction = Axis
-add_to_faction = GER
 
 
 add_ideas = {
-	sour_loser
-	general_staff
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-}
-add_ideas = GER_mefo_bills_1
 
-activate_mission = GER_mefo_bills_mission
+}
 
 create_country_leader = {
-	name = "Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Adolf_Hitler.dds"
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "Franz_Ferdinand_I.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = social_democracy_sub
 	traits = {
-		dictator
+		german_emperor
 	}
 }
 
 create_country_leader = {
-	name = "Konrad Adenauer"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Portrait_Germany_Konrad_Adenauer.dds"
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "Franz_Ferdinand_I.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = national_liberalism
 	traits = {
+		german_emperor
+	}
+}
+
+
+create_country_leader = {
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "Franz_Ferdinand_I.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		german_emperor
 	}
 }
 
 create_country_leader = {
-	name = "Wilhelm Pieck"
-	desc = "POLITICS_WILHELM_PIECK_DESC"
-	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "Franz_Ferdinand_I.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = authoritarian_democracy
 	traits = {
-		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
-		exiled # He left in 1933 so he should still be exiled
+		german_emperor
 	}
 }
+
+
 
 #create_country_leader = {
 #	name = "Otto Wels"

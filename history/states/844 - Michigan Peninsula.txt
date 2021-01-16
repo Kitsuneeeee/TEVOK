@@ -1,0 +1,29 @@
+state={
+	id=844
+	name="STATE_844"
+	resources={
+		steel=6
+	}
+
+	state_category = town
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+		victory_points = {
+			709 3 
+		}
+
+	}
+
+	provinces={
+		709 4854 10599 751 5205
+	}
+	manpower=291576
+	buildings_max_level_factor=1.000
+}

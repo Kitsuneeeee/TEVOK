@@ -1,0 +1,35 @@
+
+state={
+	id=846
+	name="STATE_846"
+	manpower = 3467
+	
+	state_category = pastoral
+	
+	
+	history = {
+		owner = ENG
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			12049 = {
+				naval_base = 2
+			}
+		}
+
+		victory_points = {
+			12049 5
+		}
+
+		victory_points = {
+			4073 3
+		}
+
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		12049 4073 1155 9947
+	}
+}

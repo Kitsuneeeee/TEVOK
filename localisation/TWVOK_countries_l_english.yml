@@ -285,3 +285,35 @@
  PAP:0 "The Papal States"
  PAP_DEF:0 "The Papal States"
  PAP_ADJ:0 "Papal"
+ 
+ TEU:0 "Teutonia"
+ TEU_DEF:0 "Teutonia"
+ TEU_ADJ:0 "German American"
+ 
+ TEU_national_syndicalism:0 "Teutonic Union"
+ TEU_national_syndicalism_DEF:0 "The Teutonic Union"
+ TEU_national_syndicalism_ADJ:0 "Teuton"
+
+ TEU_authoritarian_traditionalism:0 "Holy American Empire"
+ TEU_authoritarian_traditionalism_DEF:0 "The Holy American Empire"
+ 
+ TEU_organic_democracy:0 "German American State"
+ TEU_organic_democracy_DEF:0 "The German American State"
+ 
+ TEU_liberalism:0 "Republik Deutschamerika"
+ TEU_liberalism_DEF:0 "The Republik Deutschamerika"
+ 
+ TEU_conservatism:0 "Republik Deutschamerika"
+ TEU_conservatism_DEF:0 "The Republik Deutschamerika"
+ 
+ TEU_social_democrat:0 "Republik Deutschamerika"
+ TEU_social_democrat_DEF:0 "The Republik Deutschamerika"
+ 
+ TEU_libertarianism:0 "Republik Deutschamerika"
+ TEU_libertarianism_DEF:0 "The Republik Deutschamerika"
+ 
+ TEU_marxism:0 "Great lakes Worker's Union"
+ TEU_marxism_DEF:0 "The Great lakes Worker's Union"
+ 
+ TEU_utopian_socialism:0 "Great Lakes Union"
+ TEU_utopian_socialism_DEF:0 "The Great Lakes Union"

@@ -1,0 +1,72 @@
+ add_namespace = gam
+ 
+country_event = {
+	id = gam.1
+	title = gam.1.t
+	desc = gam.1.d
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		every_owned_state = {
+			limit = {
+				is_controlled_by = USA
+				OR = {
+					state = 394
+					state = 395
+					state = 392
+					state = 391
+					state = 844
+				}
+			}
+			add_core_of = TEU
+			remove_core_of = USA
+			add_claim_by = USA
+			TEU = {
+				transfer_state = PREV
+			}
+		}
+	}
+	
+	option = {
+	    hidden_effect = {
+		TEU = {
+			change_tag_from = USA
+			country_event = {
+				id = gam.2
+				days = 2
+			    }
+			}
+		}
+	}
+}
+	
+country_event = {
+	id = gam.2
+	title = gam.2.t
+	desc = gam.2.d
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TEU
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+	    hidden_effect = {
+		load_oob = "TEU_1936"
+	    }
+	}
+}
