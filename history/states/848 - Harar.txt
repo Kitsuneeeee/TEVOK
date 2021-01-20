@@ -1,0 +1,28 @@
+state={
+
+	id=848
+	name="STATE_848"
+	manpower = 724564
+	resources={
+		steel = 2
+	}
+	
+	state_category = town
+
+	history={
+	
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = { 
+			7980 1.0 
+		}
+		add_core_of = ETH
+	}
+
+	provinces= {
+	7980 12714 5041
+    }
+}

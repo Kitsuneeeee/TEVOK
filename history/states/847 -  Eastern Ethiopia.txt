@@ -1,0 +1,28 @@
+state={
+
+	id=847
+	name="STATE_847"
+	manpower = 643712
+	resources={
+		rubber=1
+	}
+	
+	state_category = rural
+
+	history={
+	
+		owner = GER
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 
+			12757 15 
+		}
+		add_core_of = ETH
+		add_core_of = SOM
+	}
+
+	provinces= {
+	12757 12812 4995
+    }
+}

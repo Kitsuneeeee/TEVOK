@@ -690,3 +690,23 @@ OTT_authoritarian_traditionalism = {
 	color = rgb { 138 249 195 }
 	color_ui = rgb { 138 249 195 }
 }
+
+TRP_organic_democracy = {
+	color = rgb { 138 249 195 }
+	color_ui = rgb { 138 249 195 }
+}
+
+TRP_conservatism = {
+	color = rgb { 138 249 195 }
+	color_ui = rgb { 138 249 195 }
+}
+
+TRP_liberalism = {
+	color = rgb { 138 249 195 }
+	color_ui = rgb { 138 249 195 }
+}
+
+TRP_social_democrat = {
+	color = rgb { 138 249 195 }
+	color_ui = rgb { 138 249 195 }
+}

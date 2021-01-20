@@ -60,10 +60,23 @@ set_popularities = {
 	authoritarian_traditionalism = 10
 }
 
-set_convoys = 20
-set_stability = 0.5
-set_war_support = 0.3
+set_convoys = 150
+set_stability = 0.3
+set_war_support = 0.5
 
+
+	set_autonomy = {
+		target = JBS
+		autonomous_state = tevok_ottoman_vilayet
+	}
+	set_autonomy = {
+		target = LBA
+		autonomous_state = tevok_ottoman_vilayet
+	}
+	set_autonomy = {
+		target = YEM
+		autonomous_state = tevok_ottoman_vilayet
+	}
 
 if = {
 	limit = { has_dlc = "Battle for the Bosporus" }

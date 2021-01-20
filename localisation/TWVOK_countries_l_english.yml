@@ -317,3 +317,32 @@
  
  TEU_utopian_socialism:0 "Great Lakes Union"
  TEU_utopian_socialism_DEF:0 "The Great Lakes Union"
+ 
+ LBA:0 "Libya"
+ LBA_DEF:0 "Libya"
+ LBA_ADJ:0 "Libyan"
+ 
+ LBA_organic_democracy:0 "Kingdom of Tripolitania"
+ LBA_organic_democracy_DEF:0 "The Kingdom of Triplitania"
+ 
+ LBA_conservatism:0 "Kingdom of Tripolitania"
+ LBA_conservatism_DEF:0 "The Kingdom of Triplitania"
+ 
+ LBA_liberalism:0 "Kingdom of Tripolitania"
+ LBA_liberalism_DEF:0 "The Kingdom of Triplitania"
+ 
+ LBA_social_democrat:0 "Kingdom of Tripolitania"
+ LBA_social_democrat_DEF:0 "The Kingdom of Triplitania"
+ 
+ LBA_utopian_socialism:0 "Libyan Commune"
+ LBA_utopian_socialism_DEF:0 "The Libyan Commune"
+ 
+ LBA_marxism:0 "Libyan Commune"
+ LBA_marxism_DEF:0 "The Libyan Commune"
+ 
+ LBA_libertarianism:0 "Republic of Libya"
+ LBA_libertarianism:0 "The Republic of Libya"
+ 
+ LBA_authoritarian_traditionalism:0 "Senussi Order"
+ LBA_authoritarian_traditionalism_DEF:0 "The Senussi Order"
+ 

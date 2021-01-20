@@ -1,13 +1,13 @@
 state={
 	id=829
 	name="STATE_829"
-	manpower = 960900
+	manpower = 701654
 	resources={
 		steel=13 # was: 20
 		chromium = 3 # was: 4
 	}
 	
-	state_category = town
+	state_category = city
 	
 	history={
 		owner = GER

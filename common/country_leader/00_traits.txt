@@ -4820,4 +4820,19 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	warrior_emperor = {
+		random = no
+		conscription_factor = 0.10
+		war_support_factor = 0.10
+		
+		hidden_modifier = {
+		ai_focus_military_advancements_factor = 0.20
+		ai_focus_aggressive_factor = 0.20
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
