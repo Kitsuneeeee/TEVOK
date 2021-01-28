@@ -1,0 +1,77 @@
+ideas = {
+
+    country = {
+		order_focus = {
+
+			allowed = {
+				original_tag = ROOT
+			}
+			
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			political_power_gain = 0.10
+			stability_factor = 0.05
+		    }
+        }
+		
+		root_out_opposition = {
+
+			allowed = {
+				original_tag = ROOT
+			}
+
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			marxism_drift = -0.05
+			libertarianism_drift = -0.05
+			liberalism_drift = -0.05
+			social_democrat_drift = -0.05
+			utopian_socialism_drift = -0.05
+		    }
+        }
+		
+		national_syndicalism_focus = {
+
+			allowed = {
+				original_tag = ROOT
+			}
+
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			national_syndicalism_drift = 0.10
+		    }
+        }
+		
+		military_youth = {
+
+			allowed = {
+				original_tag = ROOT
+			}
+
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			conscription = 0.01
+		    }
+        }
+	}
+}
