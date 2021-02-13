@@ -105,44 +105,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Benito Mussolini"
+	name = "Alcide de Gasperi"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	picture = "Alcide_de_Gasperi.dds"
 	expire = "1965.1.1"
-	ideology = national_syndicalism_sub
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Ferruccio Parri"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "GFX_portrait_italy_ferruccio_parri"
-	expire = "1965.1.1"
-	ideology = social_democracy_sub
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Victor Emmanuel III"
-	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
-	picture = "GFX_portrait_italy_victor_emmanuel_iii"
-	expire = "1965.1.1"
-	ideology = absolute_monarchy
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Palmiro Togliatti"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "GFX_portrait_ita_palmiro_togliatti"
-	expire = "1965.1.1"
-	ideology = marxism_leninism
+	ideology = social_conservatism
 	traits = {
 		
 	}

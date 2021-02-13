@@ -1,0 +1,104 @@
+ideas = {
+
+    country = {
+		GRE_ottoman_greece = {
+
+			allowed = {
+				original_tag = GRE
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = -0.50
+			stability_factor = -0.25
+            }
+        }	
+		GRE_ottoman_greece_1 = {
+
+			allowed = {
+				original_tag = GRE
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = -0.30
+			stability_factor = -0.20
+            }
+        }	
+		GRE_ottoman_greece_2 = {
+
+			allowed = {
+				original_tag = GRE
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = -0.15
+			stability_factor = -0.10
+            }
+        }	
+		GRE_ottoman_greece_2 = {
+
+			allowed = {
+				original_tag = GRE
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = -0.15
+			stability_factor = -0.10
+            }
+        }		
+		GRE_ottoman_greece_3 = {
+
+			allowed = {
+				original_tag = GRE
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = -0.10
+			stability_factor = -0.05
+            }
+        }
+		GRE_metaxas_economics = {
+
+			allowed = {
+				original_tag = GRE
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+			removal_cost = -1
+			
+			modifier = [
+			consumer_goods_factor = -0.05
+			industrial_capacity_factory = 0.10
+			industrial_capacity_dockyard = 0.10
+			production_speed_buildings_factor = 0.20
+			line_change_production_efficiency_factor = -0.15
+            }
+        }		
+	}
+}

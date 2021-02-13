@@ -346,3 +346,33 @@
  LBA_authoritarian_traditionalism:0 "Senussi Order"
  LBA_authoritarian_traditionalism_DEF:0 "The Senussi Order"
  
+ RSM:0 "Transnen"
+ RSM_DEF:0 "Transnen"
+ RSM_ADJ:0 "Transnen"
+ 
+ RSM_organic_democracy:0 "Free Yellowrussian Republic"
+ RSM_organic_democracy_DEF:0 "The Free Yellowrussian Republic"
+ 
+ RSM_liberalism:0 "Transnan Republic"
+ RSM_liberalism_DEF:0 "The Transnan Republic"
+ 
+ RSM_social_democrat:0 "Transnan Republic"
+ RSM_social_democrat_DEF:0 "The Transnan Republic"
+ 
+ RSM_conservatism:0 "Transnan Republic"
+ RSM_conservatism_DEF:0 "The Transnan Republic"
+ 
+ RSM_marxism:0 "Manchurian ASSR"
+ RSM_marxism_DEF:0 "The Manchu Autonomous Soviet Socialist Republic"
+ 
+ RSM_utopian_socialism:0 "Free Manchurian Worker's Association"
+ RSM_utopian_socialism_DEF:0 "The Free Manchurian Worker's Association"
+ 
+ RSM_national_syndicalism:0 "Yellowrussian People's Union"
+ RSM_national_syndicalism_DEF:0 "The Yellowrussian People's Union"
+ 
+ RSM_libertarianism:0 "Free Federation of Transnan"
+ RSM_libertarianism:0 "the Free Federation of Transnan"
+ 
+ RSM_authoritarian_traditionalism:0 "Royal State of Manchuria"
+ RSM_authoritarian_traditionalism:0 "The Royal State of Manchuria"

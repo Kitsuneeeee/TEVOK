@@ -1,3 +1,12 @@
+
+annexation_decisions = {
+	icon = GFX_decision_cat_annexation
+	picture = GFX_decision_cat_picture_annexation
+	priority = 100
+
+	allowed = { always = no } #manually activated
+}
+
 debug_decisions = {
 	icon = generic_research
 	visible = {

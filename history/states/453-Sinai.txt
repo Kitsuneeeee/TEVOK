@@ -8,7 +8,7 @@ state={
 	
 	
 	history = {
-		owner = ENG
+		owner = EGY
 		buildings = {
 			infrastructure = 2
 		}
@@ -21,6 +21,8 @@ state={
 		}
 
 		add_core_of = EGY
+		
+		set_demilitarized_zone = yes
 
 	}
 

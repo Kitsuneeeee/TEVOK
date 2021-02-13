@@ -15,13 +15,16 @@
  OTT_authoritarian_traditionalism_DEF:0 "The Ottoman Empire"
  
  TRP_organic_democracy:0 "Vilayet of Tripolitania"
- TRP_organic_democracy_DEF:0 "Vilayet of Tripolitania"
+ TRP_organic_democracy_DEF:0 "The Vilayet of Tripolitania"
  
  TRP_liberalism:0 "Vilayet of Tripolitania"
- TRP_liberalism_DEF:0 "Vilayet of Tripolitania"
+ TRP_liberalism_DEF:0 "The Vilayet of Tripolitania"
  
  TRP_conservatism:0 "Vilayet of Tripolitania"
- TRP_conservatism_DEF:0 "Vilayet of Tripolitania"
+ TRP_conservatism_DEF:0 "The Vilayet of Tripolitania"
  
  TRP_social_democrat:0 "Vilayet of Tripolitania"
  TRP_social_democrat_DEF:0 "Vilayet of Tripolitania"
+ 
+ RSM_RUS_organic_democracy:0 "Russian North Manchuria"
+ RSM_RUS_organic_democracy_DEF:0 "Russian North Manchuria"

@@ -57,6 +57,40 @@ ideas = {
 		    }
         }
 		
+		authoritarian_traditionalism_focus = {
+
+			allowed = {
+				original_tag = ROOT
+			}
+
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			authoritarian_traditionalism_drift = 0.10
+		    }
+        }
+		
+		organic_democracy_focus = {
+
+			allowed = {
+				original_tag = ROOT
+			}
+
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			organic_democracy_drift = 0.10
+		    }
+        }
+		
 		military_youth = {
 
 			allowed = {

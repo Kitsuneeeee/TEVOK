@@ -1,0 +1,35 @@
+annexation_decisions = {
+	annexation_VIT = {
+		icon = generic_form_nation
+		selectable_mission = yes
+		days_mission_timeout = 60
+		is_good = no
+		cost = 0
+		fire_only_once = no
+		cancel_trigger = {
+			NOT = {
+				267 = {
+					is_owned_and_controlled_by = ROOT
+				}
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision annexation_AFG_CONQ"
+			if = {
+				limit = { tag = PER }
+				country_event = pers.95
+			}
+			else = {
+				country_event = annex.116
+			}
+		}
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AFG_CONQ"
+			set_country_flag = AFG_CONQ
+			occupy_medium_country = yes
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

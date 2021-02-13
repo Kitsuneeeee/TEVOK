@@ -41,6 +41,7 @@ idea_categories = {
 		ledger = civilian
 
 		removal_cost = 0
+		cost = 150
 	}
 
 	military_staff = {

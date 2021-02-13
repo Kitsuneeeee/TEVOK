@@ -1,0 +1,16 @@
+ideas = {
+    head_of_government = {
+			GRE_minister_konstantinos_demertzis = {
+
+			picture = Konstantinos_Demertzis_minister
+			slot = head_of_government
+			removal_cost = -1
+
+			allowed = {
+				original_tag = GRE
+			}
+			
+			traits = { prince_of_terror }
+		}
+	}
+}
