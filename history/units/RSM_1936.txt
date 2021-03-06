@@ -1,0 +1,247 @@
+﻿### Russia OOB ###
+
+division_template = {
+	name = "Pekhotnaya Diviziya"		
+	division_names_group = RSM_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }  
+	}
+}
+
+division_template = {
+	name = "Kolonial'naya Militsiy"		
+	division_names_group = RSM_INF_02
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia  = { x = 0 y = 2 }
+
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia  = { x = 1 y = 2 }
+
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia  = { x = 2 y = 2 }
+	}
+	
+	support = {
+     
+	}
+}
+
+division_template = {
+	name = "Kavaleriyskaya Diviziya"		
+	division_names_group = RSM_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	
+	support = {
+	recon = { x = 0 y = 0 }  
+	}
+}
+
+division_template = {
+	name = "Man'chzhurskaya Diviziya"		
+	division_names_group = RSM_MCH_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		
+		infantry  = { x = 2 y = 0 }
+		militia  = { x = 2 y = 1 }
+		militia  = { x = 2 y = 2 }
+	}
+	
+	support = {
+    recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9897
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7526
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1502
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12485
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12690
+		division_template = "Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4649
+		division_template = "Man'chzhurskaya Diviziya"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4506
+		division_template = "Man'chzhurskaya Diviziya"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4745
+		division_template = "Man'chzhurskaya Diviziya"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7582
+		division_template = "Kolonial'naya Militsiy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 783
+		division_template = "Kolonial'naya Militsiy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11893
+		division_template = "Kolonial'naya Militsiy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1502
+		division_template = "Kolonial'naya Militsiy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+}
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RUS"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+
+}
+
+#################################

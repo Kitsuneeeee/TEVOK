@@ -282,6 +282,33 @@
  TSI_DEF:0 "Two Sicilies"
  TSI_ADJ:0 "Sicilian"
  
+ TSI_national_syndicalism:0 "Italian National Republic"
+ TSI_national_syndicalism_DEF:0 "The Italian National Republic"
+ 
+ TSI_marxism:0 "Socialist Union of Sicily"
+ TSI_marxism_DEF:0 "The Socialist Union of Sicily"
+ 
+ TSI_utopian_socialism:0 "Socialist Union of Sicily"
+ TSI_utopian_socialism_DEF:0 "The Socialist Union of Sicily"
+ 
+ TSI_social_democrat:0 "Kingdom of Two Sicilies"
+ TSI_social_democrat_DEF:0 "The Kingdom of Two Sicilies"
+ 
+ TSI_liberal:0 "Kingdom of Two Sicilies"
+ TSI_liberal_DEF:0 "The Kingdom of Two Sicilies"
+ 
+ TSI_libertarianism:0 "Kingdom of Two Sicilies"
+ TSI_libertarianism_DEF:0 "The Kingdom of Two Sicilies"
+ 
+ TSI_conservatism:0 "Kingdom of Two Sicilies"
+ TSI_conservatism_DEF:0 "The Kingdom of Two Sicilies"
+ 
+ TSI_organic_democracy:0 "Kingdom of Two Sicilies"
+ TSI_organic_democracy_DEF:0 "The Kingdom of Two Sicilies"
+ 
+ TSI_authoritarian_traditionalism:0 "Kingdom of Two Sicilies"
+ TSI_authoritarian_traditionalism_DEF:0 "The Kingdom of Two Sicilies"
+ 
  PAP:0 "The Papal States"
  PAP_DEF:0 "The Papal States"
  PAP_ADJ:0 "Papal"
@@ -376,3 +403,220 @@
  
  RSM_authoritarian_traditionalism:0 "Royal State of Manchuria"
  RSM_authoritarian_traditionalism:0 "The Royal State of Manchuria"
+ 
+ AFG:0 "Afghanistan"
+ AFG_DEF:0 "Afghanistan"
+ AFG_ADJ:0 "Afghani"
+ 
+ AFG_national_syndicalism:0 "Kingdom of Afghanistan"
+ AFG_national_syndicalism_DEF:0 "The Kingdom of Afghanistan"
+ 
+ AFG_marxism:0 "Democratic Republic of Afghanistan"
+ AFG_marxism_DEF:0 "The Democratic Republic of Afghanistan"
+ 
+ AFG_utopian_socialism:0 "Democratic Republic of Afghanistan"
+ AFG_utopian_socialism_DEF:0 "The Democratic Republic of Afghanistan"
+ 
+ AFG_social_democrat:0 "Kingdom of Afghanistan"
+ AFG_social_democrat_DEF:0 "The Kingdom of Afghanistan"
+ 
+ AFG_liberal:0 "Kingdom of Afghanistan"
+ AFG_liberal_DEF:0 "The Kingdom of Afghanistan"
+ 
+ AFG_libertarianism:0 "Kingdom of Afghanistan"
+ AFG_libertarianism_DEF:0 "The Kingdom of Afghanistan"
+ 
+ AFG_conservatism:0 "Kingdom of Afghanistan"
+ AFG_conservatism_DEF:0 "The Kingdom of Afghanistan"
+ 
+ AFG_organic_democracy:0 "Kingdom of Afghanistan"
+ AFG_organic_democracy_DEF:0 "The Kingdom of Afghanistan"
+ 
+ AFG_authoritarian_traditionalism:0 "Kingdom of Afghanistan"
+ AFG_authoritarian_traditionalism_DEF:0 "The Kingdom of Afghanistan"
+ 
+ ALB:0 "Albania"
+ ALB_DEF:0 "Albania"
+ ALB_ADJ:0 "Albanian"
+ 
+ ALB_national_syndicalism:0 "Kingdom of Albania"
+ ALB_national_syndicalism_DEF:0 "The Kingdom of Albania"
+ 
+ ALB_marxism:0 "People's Republic of Albania"
+ ALB_marxism_DEF:0 "The People's Republic of Albania"
+ 
+ ALB_utopian_socialism:0 "People's Republic of Albania"
+ ALB_utopian_socialism_DEF:0 "The People's Republic of Albania"
+ 
+ ALB_social_democrat:0 "Albanian Kingdom"
+ ALB_social_democrat_DEF:0 "The Albanian Kingdom"
+ 
+ ALB_liberal:0 "Albanian Kingdom"
+ ALB_liberal_DEF:0 "The Albanian Kingdom"
+ 
+ ALB_libertarianism:0 "Albanian Kingdom"
+ ALB_libertarianism_DEF:0 "The Albanian Kingdoma"
+ 
+ ALB_conservatism:0 "Albanian Kingdom"
+ ALB_conservatism_DEF:0 "The Albanian Kingdom"
+ 
+ ALB_organic_democracy:0 "Albanian Kingdom"
+ ALB_organic_democracy_DEF:0 "The Albanian Kingdom"
+ 
+ ALB_authoritarian_traditionalism:0 "Albanian Kingdom"
+ ALB_authoritarian_traditionalism_DEF:0 "The Albanian Kingdom"
+ 
+ ALG:0 "Algeria"
+ ALG_DEF:0 "Algeria"
+ ALG_ADJ:0 "ALgerian"
+ 
+ ALG_national_syndicalism:0 "People's Democratic Republic of Algeria"
+ ALG_national_syndicalism_DEF:0 "The People's Democratic Republic of Algeria"
+ 
+ ALG_marxism:0 "People's Democratic Republic of Algeria"
+ ALG_marxism_DEF:0 "The People's Democratic Republic of Algeria"
+ 
+ ALG_utopian_socialism:0 "People's Democratic Republic of Algeria"
+ ALG_utopian_socialism_DEF:0 "The People's Democratic Republic of Algeria"
+ 
+ ALG_social_democrat:0 "Algerian Federal Republic"
+ ALG_social_democrat_DEF:0 "The Algerian Federal Republic"
+ 
+ ALG_liberal:0 "Algerian Federal Republic"
+ ALG_liberal_DEF:0 "The Algerian Federal Republic"
+ 
+ ALG_libertarianism:0 "Algerian Federal Republic"
+ ALG_libertarianism_DEF:0 "The Algerian Federal Republic"
+ 
+ ALG_conservatism:0 "Algerian Federal Republic"
+ ALG_conservatism_DEF:0 "The Algerian Federal Republic"
+ 
+ ALG_organic_democracy:0 "Algerian Federal Republic"
+ ALG_organic_democracy_DEF:0 "The Algerian Federal Republic"
+ 
+ ALG_authoritarian_traditionalism:0 "Islamic State of Algeria"
+ ALG_authoritarian_traditionalism_DEF:0 "The Islamic State of Algeria"
+ 
+ ARG:0 "Argentina"
+ ARG_DEF:0 "Argentina"
+ ARG_ADJ:0 "Argentine"
+ 
+ ARG_national_syndicalism:0 "Argentine Republic"
+ ARG_national_syndicalism_DEF:0 "The Argentine Republic"
+ 
+ ARG_marxism:0 "Argentine United Socialist Republic"
+ ARG_marxism_DEF:0 "The United Socialist Republic"
+ 
+ ARG_utopian_socialism:0 "Argentine United Socialist Republic"
+ ARG_utopian_socialism_DEF:0 "The Argentine United Socialist Republic"
+ 
+ ARG_social_democrat:0 "Argentine Republic"
+ ARG_social_democrat_DEF:0 "The Argentine Republic"
+ 
+ ARG_liberal:0 "Argentine Republic"
+ ARG_liberal_DEF:0 "The Argentine Republic"
+ 
+ ARG_libertarianism:0 "Argentine Republic"
+ ARG_libertarianism_DEF:0 "The Argentine Republic"
+ 
+ ARG_conservatism:0 "Argentine Republic"
+ ARG_conservatism_DEF:0 "The Argentine Republic"
+ 
+ ARG_organic_democracy:0 "Argentine Republic"
+ ARG_organic_democracy_DEF:0 "The Argentine Republic"
+ 
+ ARG_authoritarian_traditionalism:0 "Argentine Republic"
+ ARG_authoritarian_traditionalism_DEF:0 "The Argentine Republic"
+ 
+ ARM:0 "Armenia"
+ ARM_DEF:0 "Armenia"
+ ARM_ADJ:0 "Armenian"
+ 
+ ARM_national_syndicalism:0 "Social State of Armenia"
+ ARM_national_syndicalism_DEF:0 "The Social State of Armenia"
+ 
+ ARM_marxism:0 "Armenian SSR"
+ ARM_marxism_DEF:0 "The Armenian Soviet Socialist Republic"
+ 
+ ARM_utopian_socialism:0 "Republic of Armenia"
+ ARM_utopian_socialism_DEF:0 "The Republic of Armenia"
+ 
+ ARM_social_democrat:0 "Republic of Armenia"
+ ARM_social_democrat_DEF:0 "The Republic of Armenia"
+ 
+ ARM_liberal:0 "Republic of Armenia"
+ ARM_liberal_DEF:0 "The Republic of Armenia"
+ 
+ ARM_libertarianism:0 "Republic of Armenia"
+ ARM_libertarianism_DEF:0 "The Republic of Armenia"
+ 
+ ARM_conservatism:0 "Republic of Armenia"
+ ARM_conservatism_DEF:0 "The Republic of Armenia"
+ 
+ ARM_organic_democracy:0 "Republic of Armenia"
+ ARM_organic_democracy_DEF:0 "The Republic of Armenia"
+ 
+ ARM_authoritarian_traditionalism:0 "Republic of Armenia"
+ ARM_authoritarian_traditionalism_DEF:0 "The Republic of Armenia"
+ 
+ AZR:0 "Azerbaijan"
+ AZR_DEF:0 "Azerbaijan"
+ AZR_ADJ:0 "Azeri"
+ 
+ AZR_national_syndicalism:0 "Azeri Union State"
+ AZR_national_syndicalism_DEF:0 "The Azeri Union State"
+ 
+ AZR_marxism:0 "Azerbaijan SSR"
+ AZR_marxism_DEF:0 "The Azerbaijan Soviet Socialist Republic"
+ 
+ AZR_utopian_socialism:0 "Baku Commune"
+ AZR_utopian_socialism_DEF:0 "The Baku Commune"
+ 
+ AZR_social_democrat:0 "Republic of Azerbaijan"
+ AZR_social_democrat_DEF:0 "The Republic of Azerbaijan"
+ 
+ AZR_liberal:0 "Republic of Azerbaijan"
+ AZR_liberal_DEF:0 "The Republic of Azerbaijan"
+ 
+ AZR_libertarianism:0 "Republic of Azerbaijan"
+ AZR_libertarianism_DEF:0 "The Republic of Azerbaijan"
+ 
+ AZR_conservatism:0 "Republic of Azerbaijan"
+ AZR_conservatism_DEF:0 "The Republic of Azerbaijan"
+ 
+ AZR_organic_democracy:0 "State of Azerbaijan"
+ AZR_organic_democracy_DEF:0 "The State of Azerbaijan"
+ 
+ AZR_authoritarian_traditionalism:0 "State of Azerbaijan"
+ AZR_authoritarian_traditionalism_DEF:0 "The State of Azerbaijan"
+ 
+ GEO:0 "Georgia"
+ GEO_DEF:0 "Georgia"
+ GEO_ADJ:0 "Georgian"
+ 
+ GEO_national_syndicalism:0 "Social Kingdom of Georgia"
+ GEO_national_syndicalism_DEF:0 "The Social Kingdom of Georgia"
+ 
+ GEO_marxism:0 "Goergian SSR"
+ GEO_marxism_DEF:0 "The Georgian Soviet Socialist Republic"
+ 
+ GEO_utopian_socialism:0 "Republic of Georgia"
+ GEO_utopian_socialism_DEF:0 "The Republic of Georgia"
+ 
+ GEO_social_democrat:0 "Republic of Georgia"
+ GEO_social_democrat_DEF:0 "The Republic of Georgia"
+ 
+ GEO_liberal:0 "Republic of Georgia"
+ GEO_liberal_DEF:0 "The Republic of Georgia"
+ 
+ GEO_libertarianism:0 "Republic of Georgia"
+ GEO_libertarianism_DEF:0 "The Republic of Georgia"
+ 
+ GEO_conservatism:0 "Republic of Georgia"
+ GEO_conservatism_DEF:0 "The Republic of Georgia"
+ 
+ GEO_organic_democracy:0 "Kingdom of Georgia"
+ GEO_organic_democracy_DEF:0 "The Kingdom of Georgia"
+ 
+ GEO_authoritarian_traditionalism:0 "Kingdom of Georgia"
+ GEO_authoritarian_traditionalism_DEF:0 "The Kingdom of Georgia"

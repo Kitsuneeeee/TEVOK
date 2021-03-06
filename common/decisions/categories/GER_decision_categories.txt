@@ -1,0 +1,16 @@
+GER_slavic_minority_category = {
+
+	icon = 
+
+	picture = 
+
+	priority = 10
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		has_idea = slavic_minoritiy
+	}
+}

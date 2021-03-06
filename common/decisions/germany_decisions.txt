@@ -1,0 +1,3 @@
+GER_slavic_minority_category = {
+
+}

@@ -1,0 +1,25 @@
+ideas = {
+
+    country = {
+		JAP_recover_from_sino_jap_war = {
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+			removal_cost = -1
+			
+			modifier = [
+			war_stability_factor = -0.20
+			political_power_gain = -0.25
+			stability_factor = -0.15
+			war_support_factor = -0.15
+			consumer_goods_factor = 0.15
+			conscription_factor = -0.20
+            }
+        }			
+	}
+}
