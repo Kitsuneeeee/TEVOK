@@ -1,8 +1,8 @@
 #reload countrycolors
 
 GER = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+	color = rgb { 102 102 102 }
+	color_ui = rgb { 255 73 121 }
 }
 ENG = {
 	color = rgb { 163 15 48 }
@@ -13,7 +13,7 @@ SOV = {
 	color_ui = rgb { 190 10 10 }
 }
 SWE = {
-	color = rgb { 36 132 247 }
+	color = rgb { 46 109 185 }
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
@@ -86,7 +86,7 @@ ALB = {
 	color_ui = rgb { 194 59 133 }
 }
 NOR = {
-	color = rgb { 111 71 71 }
+	color = rgb { 95 141 162 }
 	color_ui = rgb { 144 92 92 }
 }
 DEN = {
@@ -132,6 +132,10 @@ BHU = {
 BOL = {
 	color = hsv { 0.1 0.47 0.8 } #255 180 136
 	color_ui = rgb { 255 234 177 }
+}
+BOS = {
+	color = rgb { 80 180 71 }
+	color_ui = rgb { 99 189 82 }
 }
 BRA = {
 	color = rgb { 76 145 63 }
@@ -226,7 +230,7 @@ SAF = {
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
-	color = rgb { 171 190 152 }
+	color = rgb { 55 79 44 }
 	color_ui = rgb { 222 247 198 }
 }
 SIA = {
@@ -299,7 +303,7 @@ SLO = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 226  135  40 }
+	color = rgb { 147 38 38 }
 	color_ui = rgb { 226  135  40 }
 }
 
@@ -359,7 +363,7 @@ SYR = {
 }
 
 SER = {
-	color = rgb { 12 15 102 }
+	color = rgb { 17 37 88 }
 	color_ui = rgb { 160 110 110 }
 }
 
