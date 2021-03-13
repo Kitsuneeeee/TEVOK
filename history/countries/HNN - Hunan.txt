@@ -1,0 +1,29 @@
+﻿capital = 602
+
+oob = "HNN_1936"
+
+set_stability = 0.4
+set_war_support = 0.3
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = organic_democracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	organic_democracy = 47
+	social_democrat = 14
+	liberalism = 16
+	conservatism = 8
+	marxism = 10
+	utopian_socialism = 5
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=860
+	name="STATE_860" # Shanghai
+	manpower = 6104400
+	
+	state_category = city
+	
+	history={
+		owner = SHG
+		add_core_of = SHG
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			dockyard = 2
+			7014 = {
+				naval_base = 6
+			}
+		}
+		victory_points = {
+			7014 10
+		}
+
+	}
+
+	provinces={
+		7014 12052 11928 
+	}
+}

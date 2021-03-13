@@ -620,3 +620,211 @@
  
  GEO_authoritarian_traditionalism:0 "Kingdom of Georgia"
  GEO_authoritarian_traditionalism_DEF:0 "The Kingdom of Georgia"
+ 
+ KMT:0 "Republic of China"
+ KMT_DEF:0 "The Republic of China"
+ KMT_ADJ:0 "Chinese"
+ 
+ KMT_social_democratic:0 "Republic of China"
+ KMT_social_democratic:0 "The Republic of China"
+ 
+ KMT_liberalism:0 "Republic of China"
+ KMT_liberalism_DEF:0 "The Republic of China"
+ 
+ KMT_authoritarian_traditionalism:0 "Imperial Province of Guanxi"
+ KMT_authoritarian_traditionalism_DEF:0 "The Imperial Province of Guanxi"
+ 
+ KMT_marxism:0 "People's Province of Guanxi"
+ KMT_marxism_DEF:0 "The People's Province of Guangxi"
+ 
+ SCH:0 "Sichuan"
+ SCH_DEF:0 "Sichuan"
+ SCH_ADJ:0 "Sichuanese"
+ 
+ SCH_organic_democracy:0 "Sichuan Clique"
+ SCH_organic_democracy_DEF:0 "The Sichuan Clique"
+ 
+ GZH:0 "Guizhou"
+ GZH_DEF:0 "Guizhou"
+ GZH_ADJ:0 "Guizhounese"
+ 
+ GZH_organic_democracy:0 "Guizhou Clique"
+ GZH_organic_democracy_DEF:0 "The Guizhou Clique"
+ 
+ CHI:0 "China"
+ CHI_DEF:0 "China"
+ CHI_ADJ:0 "Chinese"
+ 
+ CHI_organic_democracy:0 "Beiyang Government"
+ CHI_organic_democracy_DEF:0 "The Beiyang Government of China"
+ 
+ CHI_conservatism:0 "Beiyang Government"
+ CHI_conservatism_DEF:0 "The Beiyang Government of China"
+ 
+ CHI_liberalism:0 "United States of China"
+ CHI_liberalism_DEF:0 "The United States of China"
+ 
+ CHI_social_democrat:0 "Federal Republic of China"
+ CHI_social_democrat_DEF:0 "The Federal Republic of China"
+ 
+ CHI_libertarianism:0 "Beiyang Government"
+ CHI_libertarianism_DEF:0 "The Beiyang Government of China"
+ 
+ CHI_authoritarian_traditionalism:0 "Qing"
+ CHI_authoritarian_traditionalism_DEF:0 "The Qing Dynasty"
+ 
+ CHI_marxism:0 "People's Republic of China"
+ CHI_marxism_DEF:0 "The People's Republic of China"
+ 
+ CHI_national_syndicalism:0 "Social Republic of China"
+ CHI_national_syndicalism_DEF:0 "The Social Republic of China"
+ 
+ CHI_utopian_socialism:0 "Federal Republic of China"
+ CHI_utopian_socialism_DEF:0 "The Federal Republic of China"
+ 
+ HNN:0 "Hunan"
+ HNN_DEF:0 "Hunan"
+ HNN_ADJ:0 "Hunanese"
+ 
+ HNN_organic_democracy:0 "Hunan Clique"
+ HNN_organic_democracy_DEF:0 "The Hunan Clique"
+ 
+ HNN_liberalism:0 "Republic of Hunan"
+ HNN_liberalism_DEF:0 "The Republic of Hunan"
+ 
+ HNN_libertarianism:0 "Republic of Hunan"
+ HNN_libertarianism_:0 "The Republic of Hunan"
+ 
+ HNN_utopian_socialism:0 "Federal State of Hunan"
+ HNN_utopian_socialism_:0 "The Federal State of Hunan"
+ 
+ HNN_social_democrat:0 "Federal State of Hunan"
+ HNN_social_democrat_DEF:0 "The Federal State of Hunan"
+ 
+ HNN_marxism:0 "Hunan Soviet Republic"
+ HNN_marxism_DEF:0 "The Hunan Soviet Republic"
+ 
+ HNN_national_syndicalism:0 "Hunan Social State"
+ HNN_national_syndicalism_DEF:0 "The Hunan Social State"
+ 
+ HNN_conservatism:0 "Province of Hunan"
+ HNN_conservatism_DEF:0 "The Province of Hunan"
+ 
+ HNN_authoritarian_traditionalism:0 "Imperial Province of Hunan"
+ HNN_authoritarian_traditionalism_DEF:0 "The Imperial Province of Hunan"
+ 
+ ANH:0 "Anhui"
+ ANH_DEF:0 "Anhui"
+ ANH_ADJ:0 "Anhuinese"
+ 
+ ANH_organic_democracy:0 "Anhui Clique"
+ ANH_organic_democracy_DEF:0 "The Anhui Clique"
+ 
+ SHX:0 "Shanxi"
+ SHX_DEF:0 "Shanxi"
+ SHX_ADJ:0 "Shanxi"
+ 
+ SHX_organic_democracy:0 "Shanxi Clique"
+ SHX_organic_democracy_DEF:0 "The Shanxi Clique"
+ 
+ ETR:0 "East Turkestan"
+ ETR_DEF:0 "East Turkestan"
+ ETR_ADJ:0 "East Turkestani"
+ 
+ ETR_organic_democracy:0 "Islamic Republic of East Turkestan"
+ ETR_organic_democracy_ADJ:0 "The Islamic Republic of East Turkestan"
+ 
+ ETR_liberalism:0 "Islamic Republic of East Turkestan"
+ ETR_liberalism_DEF:0 "The Islamic Republic of East Turkestan"
+ 
+ ETR_conservatism:0 "Islamic Republic of East Turkestan"
+ ETR_conservatism_DEF:0 "Islamic Republic of East Turkestan"
+ 
+ ETR_social_democrat:0 "Islamic Republic of East Turkestan"
+ ETR_social_democrat_DEF:0 "The Islamic Republic of East Turkestan"
+ 
+ ETR_authoritarian_traditionalism:0 "East Turkestani Imammate"
+ ETR_authoritarian_traditionalism_DEF:0 "THe East Turkestani Imammate"
+ 
+ ETR_marxism:0 "Turkestani SSR"
+ ETR_marxism_DEF:0 "The Turkestani Soviet Socialist Republic"
+ 
+ ETR_utopian_socialism:0 "Turkestan People's Republic"
+ ETR_utopian_socialism_DEF:0 "The Turkestan People's Republic"
+ 
+ ETR_national_syndicalism:0 "People's Republic of Uyghuristan"
+ ETR_national_syndicalism_DEF:0 "The People's Republic of Uyghuristan"
+ 
+ MAN:0 "Manchuria"
+ MAN_DEF:0 "Manchuria"
+ MAN_ADJ:0 "Manchurian"
+ 
+ MAN_authoritarian_traditionalism:0 "Empire of Manchuria"
+ MAN_authoritarian_traditionalism_DEF:0 "The Empire of Manchuria"
+ 
+ PRC:0 "China"
+ PRC_DEF:0 "China"
+ PRC_ADJ:0 "Chinese"
+ 
+ PRC_marxism:0 "People's Republic of China"
+ PRC_marxism_DEF:0 "The People's Republic of China"
+ 
+ SIK:0 "Sinkiang"
+ SIK_DEF:0 "Sinkiang"
+ SIK_ADJ:0 "Xinjiangese"
+ 
+ SIK_organic_democracy:0 "Xinjiang Clique"
+ SIK_organic_democracy_DEF:0 "Xinjiang Clique"
+ 
+ XSM:0 "Ma"
+ XSM_DEF:0 "Ma"
+ XSM_ADJ:0 "Ma"
+ 
+ XSM_organic_democracy:0 "Ma Clique"
+ XSM_organic_democracy_DEF:0 "The Ma Clique"
+ 
+ YUN:0 "Yunnan"
+ YUN_DEF:0 "Yunnan"
+ YUN_ADJ:0 "Yunnanese"
+ 
+ YUN_organic_democracy:0 "Yunnan Clique"
+ YUN_organic_democracy_DEF:0 "The Yunnan Clique"
+ 
+ MON:0 "Mongolia"
+ MON_DEF:0 "Mongolia"
+ MON_ADJ:0 "Mongol"
+ 
+ MON_organic_democracy:0 "Bogd Khanate"
+ MON_organic_democracy_DEF:0 "The Bogd Khanate of Mongolia"
+ 
+ MON_authoritarian_traditionalism:0 "Bogd Khanate"
+ MON_authoritarian_traditionalism_DEF:0 "The Bogd Khanate of Mongolia"
+ 
+ MON_social_democrat:0 "Republic of Mongolia"
+ MON_social_democrat_DEF:0 "The Republic of Mongolia"
+ 
+ MON_conservatism:0 "Kingdom of Mongolia"
+ MON_conservatism_DEF:0 "The Kingdom of Mongolia"
+ 
+ MON_marxism:0 "Mongol People's Republic"
+ MON_marxism_DEF:0 "The Mongol People's Republic"
+ 
+ MON_utopian_socialism:0 "Republic of Mongolia"
+ MON_utopian_socialism_DEF:0 "The REpublic of Mongolia"
+ 
+ SHG:0 "Shanghai"
+ SHG_DEF:0 "Shanghai"
+ SHG_ADJ:0 "Shanghainese"
+ 
+ SHG_liberalism:0 "Shanghai International Settlement"
+ SHG_liberalism_DEF:0 "The Shanghai International Settlement"
+ SHG_liberalism_ADJ:0 "Shanghailander"
+ 
+ SHG_conservatism:0 "Shanghai International Settlement"
+ SHG_conservatism_DEF:0 "The Shanghai International Settlement"
+ SHG_conservatism_ADJ:0 "Shanghailander"
+ 
+ SHG_organic_democracy:0 "Shanghai International Settlement"
+ SHG_organic_democracy_DEF:0 "The Shanghai International Settlement"
+ SHG_organic_democracy_ADJ:0 "Shanghailander"
+ 

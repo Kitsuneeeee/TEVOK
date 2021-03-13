@@ -1,0 +1,29 @@
+state={
+	id=859
+	name="STATE_859"
+	resources={
+		tungsten=6
+	}
+
+	history={
+		owner = KMT
+		add_core_of = KMT
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		
+		victory_points = {
+			7159 3
+		}
+
+	}
+
+	provinces={
+		12378 11918 9982 7159 4125 10377 12053 4480 12350 1448
+	}
+	manpower=6794090
+	buildings_max_level_factor=1.000
+	state_category=town
+}

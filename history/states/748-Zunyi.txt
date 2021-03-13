@@ -5,9 +5,8 @@ state={
 		1010 4141 4325 4431 9939 10763 11972 
 	}
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = GZH
+		add_core_of = GZH
 		buildings = {
 			infrastructure = 2
 
@@ -15,14 +14,9 @@ state={
 		victory_points = {
 			1010 3
 		}
-		1939.1.1 = {
-			buildings = {
-				infrastructure = 4
-				air_base = 1
-			}
-		}
+
 	}
 	manpower=1500000
-	state_category=pastoral
+	state_category=rural
 	buildings_max_level_factor=1.000
 }

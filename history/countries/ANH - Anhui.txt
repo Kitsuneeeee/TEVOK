@@ -1,0 +1,33 @@
+﻿capital = 606
+
+oob = "ANH_1936"
+
+set_stability = 0.6
+set_war_support = 0.4
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+}
+
+add_opinion_modifier = { target = CHI modifier = hostile_status }
+
+set_convoys = 50
+
+set_politics = {
+	ruling_party = organic_democracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	organic_democracy = 48
+	liberalism = 12
+	marxism = 18
+	conservatism = 10
+	social_democrat = 8
+	utopian_socialism = 4
+}

@@ -1,0 +1,26 @@
+state={
+	id=858
+	name="STATE_858"
+
+	history={
+		owner = PRC
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			4183 1 
+		}
+
+	}
+
+	provinces={
+		11945 4081 9942 7004 10112 1053 4183 12030 7199
+	}
+	manpower= 5718600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
