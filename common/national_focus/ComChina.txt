@@ -1,0 +1,705 @@
+focus_tree = {
+	id = communist_china_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1000 }
+	
+	focus = {
+		id = PRC_the_pesant_situation
+		icon = GFX_
+		x = 20
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		add_political_power = 50
+		add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = PRC_crackdown_on_pesants
+		icon = GFX_
+		x = 21
+		y = 1
+		
+		prerequisite = { focus = PRC_the_pesant_situation }
+		mutually_exclusive = { focus = PRC_meet_the_leaders }
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		    swap_ideas = {
+		        add_idea = PRC_pesant_crackdown
+		        remove_idea = PRC_unhappy_pesants
+		    }
+		}
+	}
+	
+	focus = {
+		id = PRC_establish_security_force
+		icon = GFX_
+		x = 21
+		y = 2
+		
+		prerequisite = { focus = PRC_crackdown_on_pesants }
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_ideas = PRC_security_force
+		}
+	}
+	
+	focus = {
+		id = PRC_destroy_dissidents
+		icon = GFX_
+		x = 21
+		y = 3
+		
+		prerequisite = { focus = PRC_establish_security_force }
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+        completion_reward = {
+		
+			add_popularity = {
+				ideology = marxism
+				popularity = 0.10
+			}
+			
+			set_country_flag = PRC_pesant_problem_solved
+			
+		    swap_ideas = {
+		        add_idea = PRC_surpressed_pesants
+		        remove_idea = PRC_pesant_crackdown
+		    }
+		}
+	}
+	
+	focus = {
+		id = PRC_meet_the_leaders
+		icon = GFX_
+		x = 19
+		y = 1
+		
+		prerequisite = { focus = PRC_the_pesant_situation }
+		mutually_exclusive = { focus = PRC_crackdown_on_pesants }
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+			add_popularity = {
+				ideology = marxism
+				popularity = 0.05
+			}
+		
+		    swap_ideas = {
+		        add_idea = PRC_meeting_leaders
+		        remove_idea = PRC_unhappy_pesants
+		    }
+		}
+	}
+	
+	focus = {
+		id = PRC_calm_down_conscription
+		icon = GFX_
+		x = 19
+		y = 2
+		
+		prerequisite = { focus = PRC_meet_the_leaders }
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		    swap_ideas = {
+		        remove_idea = PRC_meeting_leaders
+		        add_idea = PRC_meeting_leaders_1
+		    }
+			
+		    swap_ideas = {
+		        remove_idea = extensive_conscription
+		        add_idea = limited_conscription
+		    }
+		}
+	}
+	
+	focus = {
+		id = PRC_agreement_with_pesants
+		icon = GFX_
+		x = 19
+		y = 3
+		
+		prerequisite = { focus = PRC_calm_down_conscription }
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+			add_popularity = {
+				ideology = marxism
+				popularity = 0.10
+			}
+			
+			set_country_flag = PRC_pesant_problem_solved
+		
+		    swap_ideas = {
+		        remove_idea = PRC_meeting_leaders_1
+		        add_idea = PRC_pesant_agreement
+		    }
+		}
+	}
+	
+	focus = {
+		id = PRC_land_redistrubution
+		icon = GFX_
+		x = 28
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+		available = {
+		has_country_flag = PRC_pesant_problem_solved
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		add_stability = -0.05
+		
+		    random_owned_controlled_state = {
+		        add_extra_state_shared_building_slots = 2
+		    }
+		}
+	}
+	
+	focus = {
+		id = PRC_guns_for_the_people
+		icon = GFX_
+		x = 31
+		y = 1
+
+		cost = 5
+
+    	prerequisite = { focus = PRC_land_redistrubution }
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		random_owned_controlled_state = {
+		    add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		    }
+		}
+	}
+	
+	focus = {
+		id = PRC_more_guns
+		icon = GFX_
+		x = 31
+		y = 2
+
+		cost = 10
+
+    	prerequisite = { focus = PRC_guns_for_the_people }
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		random_owned_controlled_state = {
+		    add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+		    }
+		}
+	}
+	
+	focus = {
+		id = PRC_develop_the_land
+		icon = GFX_
+		x = 25
+		y = 1
+
+		cost = 5
+		
+		prerequisite = { focus = PRC_land_redistrubution }
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		random_owned_controlled_state = {
+		    add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		    }
+		}
+	}
+	
+	focus = {
+		id = PRC_expand_farmland
+		icon = GFX_
+		x = 25
+		y = 2
+
+		cost = 5
+		
+		prerequisite = { focus = PRC_develop_the_land }
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		random_owned_controlled_state = {
+		    add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		    }
+		}
+	}
+	
+	focus = {
+		id = PRC_backyard_steel
+		icon = GFX_
+		x = 28
+		y = 1
+
+		cost = 5
+		
+		prerequisite = { focus = PRC_land_redistrubution }
+
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		random_owned_controlled_state = {
+			add_resource = {
+			type = steel
+			amount = 8
+			    }
+			}
+		}
+	}
+	
+	focus = {
+		id = PRC_increased_steel_production
+		icon = GFX_
+		x = 27
+		y = 2
+
+		cost = 5
+		
+		prerequisite = { focus = PRC_backyard_steel }
+		mutually_exclusive = { focus = PRC_quality_steel }
+
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		add_ideas = PRC_low_quality_steel
+		
+		random_owned_controlled_state = {
+			add_resource = {
+			type = steel
+			amount = 8
+			    }
+			}
+		}
+	}
+	
+	focus = {
+		id = PRC_quality_steel
+		icon = GFX_
+		x = 29
+		y = 2
+
+		cost = 5
+		
+		prerequisite = { focus = PRC_backyard_steel }
+		mutually_exclusive = { focus = PRC_increased_steel_production }
+
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		add_ideas = PRC_high_quality_steel
+		
+		random_owned_controlled_state = {
+			add_resource = {
+			type = steel
+			amount = 4
+			    }
+			}
+		}
+	}
+	
+	focus = {
+		id = PRC_army_assessment
+		icon = GFX_
+		x = 40
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		army_experience = 25
+		}
+	}
+	focus = {
+		id = PRC_strategy_debate
+		icon = GFX_
+		x = 36
+		y = 2
+		
+		prerequisite = { focus = PRC_army_assessment }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		army_experience = 10
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = PRC_status_quo_strategy
+		icon = GFX_
+		x = 34
+		y = 3
+		
+		prerequisite = { focus = PRC_strategy_debate }
+		mutually_exclusive = { focus = PRC_strategy_reform }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_status_quo
+				bonus = 1.0
+				uses = 1
+				category = cat_grand_battle_plan
+			}
+			
+			add_tech_bonus = {
+				name = PRC_mass_mob
+				bonus = 1
+				uses = 1
+				category = cat_mass_assault
+			}
+			
+			swap_ideas = {
+			remove_idea = PRC_desperate_defense
+			add_idea = PRC_increased_defense
+            }
+		}
+	}
+	
+	focus = {
+		id = PRC_strategy_reform
+		icon = GFX_
+		x = 38
+		y = 3
+		
+		prerequisite = { focus = PRC_strategy_debate }
+		mutually_exclusive = { focus = PRC_status_quo }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 5
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = PRC_strategy_reform
+				bonus = 1
+				uses = 1
+				category = cat_superior_firepower
+			}
+			
+			add_tech_bonus = {
+				name = PRC_mass_mob
+				bonus = 1
+				uses = 1
+				category = cat_mass_assault
+			}
+			
+			swap_ideas = {
+			remove_idea = PRC_desperate_defense
+			add_idea = PRC_on_the_offense
+            }			
+		}
+	}
+}

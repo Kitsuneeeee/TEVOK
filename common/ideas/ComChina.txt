@@ -1,0 +1,264 @@
+ideas = {
+
+    country = {
+		PRC_desperate_defense = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			army_core_defence_factor = 0.15
+			army_core_attack_factor = 0.10
+			war_support_factor = 0.10
+		    }
+        }
+		
+		PRC_increased_defense = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			army_core_defence_factor = 0.20
+			army_core_attack_factor = 0.20
+			war_support_factor = 0.10
+			max_dig_in_factor = 0.10
+		    }
+        }
+		
+		PRC_on_the_offense = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			army_speed_factor = 0.10
+			army_defence_factor = 0.10
+			army_attack_factor = 0.15
+			war_support_factor = 0.15
+		    }
+        }	
+		
+		PRC_army_with_a_state = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = -0.10
+			production_speed_industrial_complex_factor = -0.10
+			production_speed_arms_factory_factor = 0.20 
+			recruitable_population_factor = 0.20
+			max_command_power = 25
+		    }
+        }
+		
+		PRC_unhappy_pesants = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = -0.15
+			stability_factor = -0.15
+			conscription = -0.035
+			utopian_socialism_drift = 0.02
+			social_democrat_drift = 0.02
+		    }
+        }
+		
+		PRC_meeting_leaders = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = -0.25
+			stability_factor = -0.05
+			conscription = -0.030
+		    }
+        }
+		
+		PRC_meeting_leaders_1 = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = -0.20
+			conscription = -0.015
+		    }
+        }
+		
+		PRC_pesant_agreement = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = -0.10
+			conscription = -0.005
+		    }
+        }
+		
+		PRC_pesant_crackdown = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = -0.05
+			stability_factor = -0.20
+			conscription = -0.020
+			utopian_socialism_drift = 0.04
+			social_democrat_drift = 0.04
+		    }
+        }
+		
+		PRC_security_force = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			political_power_factor = 0.15
+			stability_factor = 0.10
+		    }
+        }
+		
+		PRC_surpressed_pesants = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = [
+			stability_factor = -0.05
+			war_support_factor = -0.05
+			conscription = -0.002
+		    }
+        }
+
+		PRC_low_quality_steel = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			traits = {
+				PRC_low_quality_steel_trait
+			}		
+			
+			modifier = [
+			industrial_capacity_factory = -0.05
+			industrial_capacity_dockyard = -0.05
+			production_speed_buildings_factor = -0.10
+		    }
+        }
+		
+		PRC_high_quality_steel = {
+
+			allowed = {
+				original_tag = PRC
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			traits = {
+				PRC_high_quality_steel_trait
+			}
+			
+			modifier = [
+			industrial_capacity_factory = 0.05
+			industrial_capacity_dockyard = 0.05
+			production_speed_buildings_factor = 0.10
+		    }
+        }
+	}
+}

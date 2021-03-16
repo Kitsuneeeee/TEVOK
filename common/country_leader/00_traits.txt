@@ -3,9 +3,43 @@ leader_traits = {
 	### IDEA TRAITS ###
 	
 	# drift is a percent applied weekly
+	
+	PRC_low_quality_steel_trait = {
+		random = no
+		equipment_bonus = {
+			infantry_equipment = {
+				soft_attack = -0.05
+				breakthrough = -0.05
+				defense = -0.05
+				reliability = -0.1
+				build_cost_ic = -0.20
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	PRC_high_quality_steel_trait = {
+		random = no
+		equipment_bonus = {
+			infantry_equipment = {
+				soft_attack = 0.05
+				breakthrough = 0.05
+				defense = 0.05
+				reliability = 0.1
+				build_cost_ic = 0.15
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	marxist_revolutionary = {
 		random = no
-		sprite = 13
 		marxism_drift = 0.1
 		
 		ai_will_do = {

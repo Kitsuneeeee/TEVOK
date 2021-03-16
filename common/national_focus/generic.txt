@@ -1,0 +1,44 @@
+focus_tree = {
+	id = generic_focus
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 20 y = 1000 }
+	
+	focus = {
+		id = test
+		icon = GFX_
+		x = 20
+		y = 0
+		
+		prerequisite = { focus = PRC_the_pesant_situation }
+		mutually_exclusive = { focus = PRC_meet_the_leaders }
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+}
